@@ -10,10 +10,15 @@ module.exports = {
   module: {
     strictExportPresence: true,
     rules: [
-      // Load raw HTML files for templates
-      { test: /\.(html)$/, loader: "raw-loader" },
-      // Load js files through Babel
-      { test: /\.(js|jsx)$/,   loader: "babel-loader" }
+      {
+        test: /\.(html)$/,
+        loader: "raw-loader"
+      },
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
+      }
     ]
   },
   plugins: [

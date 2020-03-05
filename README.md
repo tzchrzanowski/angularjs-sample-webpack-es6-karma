@@ -18,6 +18,10 @@ Or with npm:
     npm start
     npm test
 
+# build it with minification:
+
+    webpack --optimize-minimize
+
 # License
 
 MIT
