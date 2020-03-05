@@ -17,6 +17,7 @@ Or with npm:
     npm install
     npm start
     npm test
+    npm testJest
 
 # build it with minification:
 

@@ -5,7 +5,7 @@ class DummyController {
 
   /* @ngInject */
   constructor() {
-    this.name = "Sam"
+    this.name = "asd"
   }
 }
 
@@ -14,6 +14,8 @@ const component = {
   template
 }
 
+
 export default angular.module("app.dummy", [])
   .component("dummyComponent", component)
   .name
+
