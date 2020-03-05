@@ -14,6 +14,8 @@ const component = {
   template
 }
 
+const asd = "xx";
+const qwe = "yy";
 
 export default angular.module("app.dummy", [])
   .component("dummyComponent", component)

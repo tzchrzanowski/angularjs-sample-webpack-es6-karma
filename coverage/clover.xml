@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1583412804357" clover="3.2.0">
-  <project timestamp="1583412804358" name="All files">
+<coverage generated="1583413033086" clover="3.2.0">
+  <project timestamp="1583413033086" name="All files">
     <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="9" coveredelements="7" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="mathservice.js" path="/home/tchrzanowski/www/poc_ngJS_Webpack/angularjs-sample-webpack-es6-karma/src/mathservice.js">
       <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>

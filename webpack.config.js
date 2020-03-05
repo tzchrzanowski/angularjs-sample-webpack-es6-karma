@@ -5,7 +5,7 @@ module.exports = {
   entry: ["./src/index.js"],
   output: {
     path: path.join(__dirname, "build/"),
-    filename: "bundle.js"
+    filename: '[name].[hash].js',
   },
   module: {
     strictExportPresence: true,
@@ -26,7 +26,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: true,
       template: "src/index.html",
-      filename: "index.html"
+      filename: "index.html",
+      title: 'caching'
     }),
   ]
 }

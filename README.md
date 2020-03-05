@@ -6,23 +6,21 @@ This repository is an example of how to use AngularJS 1.5 with Webpack, Babel (E
 
 - Requires Node 8.4.0+
 
-With yarn:
-
-    yarn
-    yarn start
-    yarn test
-
 Or with npm:
 
     npm install
     npm start
     npm test
-    npm testJest
 
 # build it with minification:
 
     webpack --optimize-minimize
+# eslint
+    init setup:
+        npx eslint --init
 
+    run:
+        npx eslint ./
 # License
 
 MIT
